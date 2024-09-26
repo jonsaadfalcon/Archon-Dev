@@ -8,9 +8,6 @@ LONG_DESCRIPTION = (current_directory / "README.md").read_text()
 setup(
     name="archon-ai",
     version=VERSION,
-    author="Shlok Natarajan",
-    author_email="shlok.natarajan@gmail.com",
-    url="https://github.com/jonsaadfalcon/Archon",
     description=DESCRIPTION,
     long_description=LONG_DESCRIPTION,
     long_description_content_type="text/markdown",
