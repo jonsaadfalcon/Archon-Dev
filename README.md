@@ -152,16 +152,3 @@ archon = Archon(config, "path_to_keys/file.json")
 We have a built-in system that swaps through your keys if you hit a rate limit. We found this helpful when working with APIs.
 
 Alternatively, if no keys are provided, our system will look for environment variables corresponding to the keys in `api_keys.json`.
-
-## Citation
-```bibtex
-@misc{saadfalcon2024archonarchitecturesearchframework,
-      title={Archon: An Architecture Search Framework for Inference-Time Techniques}, 
-      author={Jon Saad-Falcon and Adrian Gamarra Lafuente and Shlok Natarajan and Nahum Maru and Hristo Todorov and Etash Guha and E. Kelly Buchanan and Mayee Chen and Neel Guha and Christopher Ré and Azalia Mirhoseini},
-      year={2024},
-      eprint={2409.15254},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2409.15254}, 
-}
-```
